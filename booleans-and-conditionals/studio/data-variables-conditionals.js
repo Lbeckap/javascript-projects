@@ -16,10 +16,20 @@ let fuelLevel = '100%';
 let weatherStatus = 'clear';
 let preparedForLiftOff = true;
 let launchSequenceMsg = 'All systems are go! Initiating space shuttle launch sequence.\n';
-let launchDetailMsg = `Date: ${date}\n Time: ${time}\n Astronaut Count: ${astronautCount}\n Crew Mass: ${crewMassKg} kg\n Fuel Mass: ${fuelMassKg} kg\n Shuttle Mass: ${shuttleMassKg} kg\n Total Mass: ${totalMassKg} kg\n Fuel Temperature: ${fuelTempCelsius} C\n Weather Status: ${weatherStatus}\n`;
-let byeMsg = 'Have a safe trip astronauts!';
-let dashes = '--------------------------------------\n';
-let terminateMsg = 'Required conditions NOT met! Launch operations terminated.\n';
+let launchDetailMsg =`Date: ${date}
+Time: ${time}
+Astronaut Count: ${astronautCount}
+Crew Mass: ${crewMassKg} kg
+Fuel Mass: ${fuelMassKg} kg
+Shuttle Mass: ${shuttleMassKg} kg
+Total Mass: ${totalMassKg} kg
+Fuel Temperature: ${fuelTempCelsius} C
+Weather Status: ${weatherStatus}
+`;
+let byeMsg = `Have a safe trip astronauts!`;
+let dashes = `--------------------------------------
+`;
+let terminateMsg = `Required conditions NOT met! Launch operations terminated.`;
 
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
 
