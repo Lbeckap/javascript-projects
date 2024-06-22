@@ -5,30 +5,29 @@ let protoArray4 = 'Comma-spaces, might, require, typing, caution';
 
 strings = [protoArray1, protoArray2, protoArray3, protoArray4];
 
-
 determineDelimiter(strings[1]);
 
 //1)
 function determineDelimiter(str) {
   if (str.includes(', ')) {
-	console.log('The given string has spaces and commas');
+    console.log('The given string has spaces and commas');
   } else if (str.includes(';')) {
-	console.log('The given string has semi colons');
+    console.log('The given string has semi colons');
   } else if (str.includes(',')) {
-	console.log('The given string has commas');
+    console.log('The given string has commas');
   } else {
-	console.log('The given string has spaces');
+    console.log('The given string has spaces');
   }
 }
 
 //2)
 function reverseCommas() {
   //TODO: 1. create and instantiate your variables.
-	 let check; //What to check? I did this in step 1 I think.
+  let check; //I did this in step 1 I think.
 
   //TODO: 2. write the code required for this step
-	let output = strings[0].split(',').reverse().join(',');
-	
+  let output = strings[0].split(',').reverse().join(',');
+
   //NOTE: For the code to run properly, you must return your output.  this needs to be the final line of code within the function's { }.
   return output;
 }
