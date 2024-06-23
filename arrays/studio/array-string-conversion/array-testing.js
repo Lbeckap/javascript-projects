@@ -23,10 +23,11 @@ function determineDelimiter(str) {
 //2)
 function reverseCommas() {
   //TODO: 1. create and instantiate your variables.
-  let check; //I did this in step 1 I think.
+  let check;
+
 
   //TODO: 2. write the code required for this step
-  let output = strings[0].split(',').reverse().join(',');
+  output = strings[0].split(',').reverse().join(',');
 
   //NOTE: For the code to run properly, you must return your output.  this needs to be the final line of code within the function's { }.
   return output;
