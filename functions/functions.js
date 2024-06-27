@@ -71,10 +71,7 @@ console.log(makeDiamond(5));
 
 function makeDiamond(height) {
    let diamond = '';
-    for (let i = 0; i < height; i++){
-        diamond += `\n${(makeSpaceLine(height - i - 1, 2*i + 1))}`;
-    }
-    diamond += `\n${diamond.split('').reverse().join('')}`;
+    diamond += `${makeIsoscelesTriangle(height).split('').reverse().join('')}`;
 
     return diamond;
 }
