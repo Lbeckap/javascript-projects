@@ -1,4 +1,5 @@
 function isPalindrome(str){
+
     return str === str.split('').reverse().join('');
 }
 
@@ -13,4 +14,13 @@ function evenOrOdd(num){
 function randomArrayElement(arr){
     let index = Math.floor(Math.random()*arr.length);
     return arr[index];
+}
+
+
+// module.exports = isPalindrome; 
+
+module.exports = {
+    isPalindrome: isPalindrome,
+    evenOrOdd: evenOrOdd,
+    randomArrayElement: randomArrayElement
 }
