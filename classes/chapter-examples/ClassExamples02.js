@@ -15,3 +15,5 @@ let tortoise = new Astronaut('Speedy', 120);
 console.log(tortoise.name, tortoise.age, tortoise.mass);
 
 // What happens if we call Astronaut and pass in MORE than 3 arguments? TRY IT!
+
+//It says undefined

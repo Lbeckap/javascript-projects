@@ -21,3 +21,7 @@ class Tiger extends Panthera {
 let tigger = new Tiger();
 
 console.log(tigger);
+
+let tony = new Tiger();
+tony.brand = "Frosty Flakes";
+console.log(tony);
